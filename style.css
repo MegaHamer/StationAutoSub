@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inputs_conteiner{
+    margin: 2rem;
+
+    width: clamp(150px,80vw,400px);
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 1rem;
+
+    align-items: center
+}
+.input {
+    width: 100%;
+}
